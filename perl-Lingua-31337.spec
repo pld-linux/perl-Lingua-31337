@@ -9,10 +9,12 @@ Summary(pl):	M0DU£ P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wê
 Name:		perl-Lingua-31337
 Version:	0.02
 Release:	0.1
-License:	same as perl
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CW/CWEST/%{pnam}-%{version}.tar.gz
 # Source0-md5:	ed62044e9fc6df817d52a3d838497819
+URL:		http://search.cpan.org/dist/Lingua-31337/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
