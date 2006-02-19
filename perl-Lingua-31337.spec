@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Lingua-31337
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
-#Summary(pl):	
+Summary(pl):	M0DU£ P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wê
 Name:		perl-Lingua-31337
 Version:	0.02
 Release:	0.1
@@ -15,16 +15,14 @@ Source0:	http://search.cpan.org/CPAN/authors/id/C/CW/CWEST/%{pnam}-%{version}.ta
 # Source0-md5:	ed62044e9fc6df817d52a3d838497819
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
+P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k.
 
-# %description -l pl
-# TODO
+%description -l pl
+M0DU£ P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wê.
 
 %prep
 %setup -q -n %{pnam}-%{version}
@@ -48,8 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-#%{perl_vendorlib}//*.pm
-#%{perl_vendorlib}/Lingua/
-%{perl_vendorarch}/auto/Lingua/31337/.packlist
 %{perl_vendorlib}/Lingua/31337.pm
 %{_mandir}/man3/*
