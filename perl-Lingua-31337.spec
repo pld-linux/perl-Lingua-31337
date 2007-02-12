@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Lingua-31337
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
-Summary(pl):	M0DU£ P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wÍ
+Summary(pl.UTF-8):   M0DU≈Å P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wƒô
 Name:		perl-Lingua-31337
 Version:	0.02
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k.
 
-%description -l pl
-M0DU£ P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wÍ.
+%description -l pl.UTF-8
+M0DU≈Å P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wƒô.
 
 %prep
 %setup -q -n %{pnam}-%{version}
