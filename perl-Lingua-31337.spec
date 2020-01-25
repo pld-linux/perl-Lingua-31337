@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pnam	Lingua-31337
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
 Summary(pl.UTF-8):	M0DUŁ P3R14 d0 k0nw3r5j1 7ek57u n4 C0o1 m0wę
